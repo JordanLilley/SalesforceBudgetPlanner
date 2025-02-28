@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jordanLilleyDeductions</fullName>
+    <columns>NAME</columns>
+    <columns>overallCost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>plannerMD__c</field>
+        <operation>equals</operation>
+        <value>Monthly Budget - Jordan Lilley</value>
+    </filters>
+    <filters>
+        <field>type__c</field>
+        <operation>equals</operation>
+        <value>Deduction</value>
+    </filters>
+    <label>Jordan Lilley - Deductions</label>
+</ListView>
